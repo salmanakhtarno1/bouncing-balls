@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+            *{margin: 0; padding: 0;}
+
+            div{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                background-color: rgb(34, 30, 37);
+            }
+             div ul{
+                 display: flex;
+                 border-bottom:10px  rgb(255, 255, 255) solid  ;
+             }
+           div  ul li{
+               width: 50px; height: 50px;
+               
+               list-style: none;
+               margin: 0 10px;
+               border-radius: 50%;
+               animation: bouncy 1s linear infinite;
+           }
+
+           @keyframes bouncy{
+               0%{ transform: translatey(0);}
+               50%{ transform: translatey(-150px);}
+               100%{ transform: translatey(0);}
+             }
+
+             ul  :nth-child(1){
+                 animation-delay: 0.2s;
+                 background-color: #eea00f;
+             }
+             ul  :nth-child(2){
+                 animation-delay: 0.6s;
+                 background-color: #f31f1f;
+             }
+             ul  :nth-child(3){
+                 animation-delay: 0.2s;
+                 background-color: #0ef1f1;
+             }
+             ul  :nth-child(4){
+                 animation-delay: 0.8s;
+                 background-color: #081fe9;
+             }
+             ul  :nth-child(5){
+                 animation-delay: 0.5s;
+                 background-color: #f00657;
+             }
+
+
+    </style>
+  
+</head>
+<body>
+    <div>
+         <ul>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+
+
+
+
+
+
+         </ul>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
